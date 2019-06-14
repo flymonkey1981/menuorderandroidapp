@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d("Clicked","button is clicked");
                 Log.d("Clicked","button is clicked");
+                Log.d("Clicked","button is clicked");
 
                 RequestParams rp = new RequestParams();
                 rp.add("userName", userName.getText().toString()); rp.add("password", password.getText().toString());
